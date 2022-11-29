@@ -92,17 +92,17 @@ a {
     left: 42%;
 }
 
-#main-nav{
+ #main-nav{
     position: fixed;
     bottom: 0;
     height: 300px;
     width: 200px;
     padding-left: 30px;
-    transform: translateX(-200%);
+    transform: translateX(-100%);
     transition: 0.5s ease-in-out;
 }
 
-#main-nav.show {
+.container.show #main-nav {
     transform:translateX(0)
 }
 #main-nav ul{
@@ -129,6 +129,6 @@ a {
         overflow-x: hidden;
     }
     .container{
-        padding: 20% 10%;
+        padding: 15% 10%;
     }
 }
