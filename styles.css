@@ -74,14 +74,22 @@ a {
     cursor: pointer;
     z-index: 100;
     position: absolute;
+    transition: 0.5s ease-in-out;
 }
 .main-circle .open-btn{
     top: 65%;
     left:60%;
 }
+.container.show .open-btn{
+    left: 150%;
+    top:0;
+}
+.container.show .close-btn{
+    left: 55%;
+}
 .main-circle .close-btn{
     top: 65%;
-    left: 30%;
+    left: 42%;
 }
 
 #main-nav{
